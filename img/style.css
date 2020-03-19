@@ -1,0 +1,64 @@
+body
+{
+	background-color: grey;
+}
+
+#div-contain
+{
+	display: flex;
+	padding: 10%;
+}
+
+.div-jaune
+{
+	background-color: #FFC107;
+	width: 20%;
+	height: 1500px;
+}
+
+.div-blanc
+{
+	background-color: #FFF;
+	width: 80%;
+	height: 1500px;
+}
+
+.div-bar1
+{
+	background-color: #4E342E;
+	height: 35px;
+	margin-top: %;
+}
+
+.div-bar2
+{
+	background-color: #4E342E;
+	height: 35px;
+	margin-top: 100%;
+}
+
+.div-bar3
+{
+	background-color: #4E342E;
+	height: 35px;
+	margin-top: 210%;
+}
+
+div-bar1, p
+{
+	padding: 5%;
+
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.bar
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	vertical-align: 1rem;
+}
