@@ -63,3 +63,26 @@ ul
 {
 	list-style-type: none;
 }
+
+.first-name
+{
+	color: #FFC107;
+	font-size: 3rem;
+}
+
+.name
+{
+	font-size: 3rem;
+}
+
+.spe
+{
+	font-size: 1.5rem;
+}
+
+.formation
+{
+	font-size: 2rem;
+	position: relative;
+	top: 90px;
+}
