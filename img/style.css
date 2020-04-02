@@ -2,10 +2,11 @@ body
 {
 	background-color: grey;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: ;
+	font-style: Helvetica;
 }
 
-#div-contains
+.div-contains
 {
 	display: flex;
 	padding: 10%;
@@ -26,7 +27,7 @@ body
 
 .div-bar1
 {
-	background-color: #4E342E;
+	background-color: #424242;
 	height: 35px;
 	color: #FFC107;	
 	text-align: center;
@@ -36,7 +37,7 @@ body
 
 .div-bar2
 {
-	background-color: #4E342E;
+	background-color: #424242;
 	height: 35px;
 	margin-top: 20%;
 	color: #FFC107;	
@@ -46,7 +47,7 @@ body
 
 .div-bar3
 {
-	background-color: #4E342E;
+	background-color: #424242;
 	height: 35px;
 	margin-top: 15%;
 	color: #FFC107;	
@@ -88,43 +89,51 @@ ul
 	border-bottom: solid #FFC107 2px ;
 }
 
-.formation
-{
-	font-size: 2rem;
-	position: relative;
-	top: 90px;
-}
-
 .portrait
 {
-	width: 300px;
-	height: 300px;
+	padding: 12%;
+}
+
+.portraitimg
+{
+	width: 100%;
 }
 
 .titre
 {
-	margin: 10%;
+	margin: 10%;	
+}
+
+.formation-contains
+{
+	display: flex;
 	
+}
+
+.form-contains
+{
+	
+}
+
+.reco-contains
+{
+	display: flex;
+	align: 10%;
+}
+
+.li
+{
+	padding-bottom: 7%;
 }
 
 .formation1
 {
-	margin-left: 6%;
-	width: 20%;
+	width: 15%;
+	padding: 30px;
 }
 
 .formation11
 {
-	width: 80%;
-}
-
-#formation-contains
-{
-	display: flex;
-}
-
-#reco-contains
-{
-	display: flex;
-	margin: 5%;
+	width: 85%;
+	padding: 30px;
 }
