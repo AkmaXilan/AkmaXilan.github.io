@@ -87,6 +87,13 @@ ul
 {
 	font-size: 1.5rem;
 	border-bottom: solid #FFC107 2px ;
+	border-bottom-height: 2px;
+}
+
+.trait
+{
+	border-bottom: 2px solid #FFC107;
+	line-width: px;
 }
 
 .portrait
@@ -118,7 +125,6 @@ ul
 .reco-contains
 {
 	display: flex;
-	align: 10%;
 }
 
 .li
@@ -136,4 +142,15 @@ ul
 {
 	width: 85%;
 	padding: 30px;
+}
+
+.ico
+{
+	float: left;
+}
+
+.reco
+{
+	margin-left: auto;
+	margin-right: auto;
 }
