@@ -3,7 +3,7 @@ body
 	background-color: grey;
 	font-size: 18px;
 	font-weight: ;
-	font-style: Helvetica;
+	font-family: Helvetica;
 }
 
 .div-contains
@@ -35,6 +35,7 @@ body
 	margin-top: 0;
 }
 
+
 .div-bar2
 {
 	background-color: #424242;
@@ -54,6 +55,7 @@ body
 	text-align: center;
 	font-weight: bold;
 }
+
 
 div-bar1, p
 {
@@ -83,18 +85,16 @@ ul
 	font-size: 3rem;
 }
 
-.spe
+.spe:before
 {
+	position: absolute;
 	font-size: 1.5rem;
-	border-bottom: solid #FFC107 2px ;
-	border-bottom-height: 2px;
+	border-bottom: solid #FFC107 1.5px ;
+	content: "";
+	width: 60px;
+	top: 80px;
 }
 
-.trait
-{
-	border-bottom: 2px solid #FFC107;
-	line-width: px;
-}
 
 .portrait
 {
@@ -108,18 +108,16 @@ ul
 
 .titre
 {
+	position: relative;
 	margin: 10%;	
 }
 
-.formation-contains
+.h2titre
 {
-	display: flex;
-	
-}
-
-.form-contains
-{
-	
+	border-bottom: solid #FFC107 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .reco-contains
@@ -130,6 +128,11 @@ ul
 .li
 {
 	padding-bottom: 7%;
+}
+
+.formation-contains
+{
+	display: flex;
 }
 
 .formation1
@@ -147,6 +150,13 @@ ul
 .ico
 {
 	float: left;
+}
+
+.icocss
+{
+	background-image: url("empty.png");
+	background-repeat: no-repeat;
+	background-size: 10px;
 }
 
 .reco
