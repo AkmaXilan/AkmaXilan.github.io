@@ -40,10 +40,11 @@ body
 {
 	background-color: #424242;
 	height: 35px;
-	margin-top: 20%;
+	margin-top: %;
 	color: #FFC107;	
 	text-align: center;
 	font-weight: bold;
+	
 }
 
 .div-bar3
@@ -60,7 +61,6 @@ body
 div-bar1, p
 {
 	padding: 5%;
-
 }
 
 ul
@@ -68,7 +68,7 @@ ul
 	list-style-type: none;
 }
 
-.loisir
+.loisirimg
 {
 	width: 50px;
 	height: 50px;
@@ -93,6 +93,7 @@ ul
 	content: "";
 	width: 60px;
 	top: 80px;
+	font-weight: bold;
 }
 
 
@@ -112,6 +113,12 @@ ul
 	margin: 10%;	
 }
 
+.moi
+{
+	padding: 10%;
+	padding-bottom: 400px;
+}
+
 .h2titre
 {
 	border-bottom: solid #FFC107 2px;
@@ -123,11 +130,23 @@ ul
 .reco-contains
 {
 	display: flex;
+	padding-left: 0%;
+	padding-right: 0%;
 }
 
 .li
 {
 	padding-bottom: 7%;
+}
+
+.li2
+{
+	padding-bottom: 0%;
+}
+
+.formation
+{
+	padding: 4%;
 }
 
 .formation-contains
@@ -159,8 +178,12 @@ ul
 	background-size: 10px;
 }
 
-.reco
+.reco2
 {
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 20%;
+}
+
+.cv-contains
+{
+	padding: 5px;
 }
