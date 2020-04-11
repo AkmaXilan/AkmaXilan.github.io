@@ -9,19 +9,20 @@ body
 .div-contains
 {
 	padding: 10%;
+	display: block;
 }
 
 .div-jaune
 {
 	background-color: red;
-	width: 20%;
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 .div-blanc
 {
 	background-color: #FFF;
-	width: 80%;
+	width: 100%;
 }
 
 .div-bar1
@@ -32,6 +33,7 @@ body
 	text-align: center;
 	font-weight: bold;
 	margin-top: 0;
+
 }
 
 
@@ -104,6 +106,7 @@ ul
 .portraitimg
 {
 	width: 100%;
+	display: none;
 }
 
 .titre
