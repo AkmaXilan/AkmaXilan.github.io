@@ -171,11 +171,31 @@ ul
 	float: left;
 }
 
-.icocss
+.icocss_img1
 {
 	background-image: url("empty.png");
 	background-repeat: no-repeat;
-	background-size: 10px;
+	background-size: 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+.icocss_img2
+{
+	background-image: url("empty2.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+.icocss2
+{
+	padding-left: 20px;
 }
 
 .reco2
@@ -186,4 +206,15 @@ ul
 .cv-contains
 {
 	padding: 5px;
+}
+
+h2 .div-bar1 .div-bar2 .div-bar3
+{
+	font-size: 16px;
+}
+
+.document
+{
+	width: 50px;
+	height: 50px;
 }
