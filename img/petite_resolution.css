@@ -9,6 +9,7 @@ body
 .div-contains
 {
 	padding: 10%;
+	display: none;
 }
 
 .div-jaune
