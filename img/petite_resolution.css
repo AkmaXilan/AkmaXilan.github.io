@@ -1,0 +1,188 @@
+body
+{
+	background-color: grey;
+	font-size: 18px;
+	font-weight: ;
+	font-family: Helvetica;
+}
+
+.div-contains
+{
+	padding: 10%;
+}
+
+.div-jaune
+{
+	background-color: #FFC107;
+	width: 20%;
+	padding-bottom: 20px;
+}
+
+.div-blanc
+{
+	background-color: #FFF;
+	width: 80%;
+}
+
+.div-bar1
+{
+	background-color: #424242;
+	height: 35px;
+	color: #FFC107;	
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+
+.div-bar2
+{
+	background-color: #424242;
+	height: 35px;
+	margin-top: %;
+	color: #FFC107;	
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+.div-bar3
+{
+	background-color: #424242;
+	height: 35px;
+	margin-top: 15%;
+	color: #FFC107;	
+	text-align: center;
+	font-weight: bold;
+}
+
+
+div-bar1, p
+{
+	padding: 5%;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.loisirimg
+{
+	width: 50px;
+	height: 50px;
+}
+
+.first-name
+{
+	color: #FFC107;
+	font-size: 3rem;
+}
+
+.name
+{
+	font-size: 3rem;
+}
+
+.spe:before
+{
+	position: absolute;
+	font-size: 1.5rem;
+	border-bottom: solid #FFC107 1.5px ;
+	content: "";
+	width: 60px;
+	top: 80px;
+	font-weight: bold;
+}
+
+
+.portrait
+{
+	padding: 12%;
+}
+
+.portraitimg
+{
+	width: 100%;
+}
+
+.titre
+{
+	position: relative;
+	margin: 10%;	
+}
+
+.moi
+{
+	padding: 10%;
+	padding-bottom: 400px;
+}
+
+.h2titre
+{
+	border-bottom: solid #FFC107 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reco-contains
+{
+	display: flex;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.li
+{
+	padding-bottom: 7%;
+}
+
+.li2
+{
+	padding-bottom: 0%;
+}
+
+.formation
+{
+	padding: 4%;
+}
+
+.formation-contains
+{
+	display: flex;
+}
+
+.formation1
+{
+	width: 15%;
+	padding: 30px;
+}
+
+.formation11
+{
+	width: 85%;
+	padding: 30px;
+}
+
+.ico
+{
+	float: left;
+}
+
+.icocss
+{
+	background-image: url("empty.png");
+	background-repeat: no-repeat;
+	background-size: 10px;
+}
+
+.reco2
+{
+	padding-left: 20%;
+}
+
+.cv-contains
+{
+	padding: 5px;
+}
