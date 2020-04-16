@@ -2,7 +2,6 @@ body
 {
 	background-color: grey;
 	font-size: 18px;
-	font-weight: ;
 	font-family: Helvetica;
 }
 
@@ -32,7 +31,12 @@ body
 	color: #FFC107;	
 	text-align: center;
 	font-weight: bold;
-	margin-top: 0;
+	vertical-align: middle;
+	padding-top: auto;
+	padding-bottom: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
 }
 
 
@@ -40,7 +44,6 @@ body
 {
 	background-color: #424242;
 	height: 35px;
-	margin-top: %;
 	color: #FFC107;	
 	text-align: center;
 	font-weight: bold;
@@ -72,6 +75,7 @@ ul
 {
 	width: 50px;
 	height: 50px;
+	padding: 10px;
 }
 
 .first-name
@@ -110,13 +114,13 @@ ul
 .titre
 {
 	position: relative;
-	margin: 10%;	
+	margin: 5%;	
 }
 
 .moi
 {
 	padding: 10%;
-	padding-bottom: 400px;
+	padding-bottom: 300px;
 }
 
 .h2titre
@@ -125,6 +129,15 @@ ul
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.h2titre1
+{
+	border-bottom: solid #FFC107 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
 }
 
 .reco-contains
@@ -193,6 +206,12 @@ ul
 	padding-left: 20px;
 }
 
+.icocss
+{
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
 .icocss2
 {
 	padding-left: 20px;
@@ -208,7 +227,7 @@ ul
 	padding: 5px;
 }
 
-h2 .div-bar1 .div-bar2 .div-bar3
+h3 .div-bar1 .div-bar2 .div-bar3
 {
 	font-size: 16px;
 }
