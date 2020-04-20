@@ -9,12 +9,13 @@ body
 .div-contains
 {
 	padding: 10%;
-	display: block;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .div-jaune
 {
-	background-color: red;
+	background-color: #FFC107;
 	padding-bottom: 20px;
 	width: 100%;
 }
