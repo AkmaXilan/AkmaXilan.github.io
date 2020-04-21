@@ -28,34 +28,37 @@ body
 
 .div-bar1
 {
+	display: flex;
+	align-items: center;
 	background-color: #424242;
 	height: 35px;
 	color: #FFC107;	
-	text-align: center;
+	justify-content: center;
 	font-weight: bold;
-	margin-top: 0;
-
 }
 
 
 .div-bar2
 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #424242;
 	height: 35px;
-	margin-top: %;
 	color: #FFC107;	
-	text-align: center;
 	font-weight: bold;
 	
 }
 
 .div-bar3
 {
+	display: flex;
+	align-items: center;
 	background-color: #424242;
 	height: 35px;
 	margin-top: 15%;
 	color: #FFC107;	
-	text-align: center;
+	justify-content: center;
 	font-weight: bold;
 }
 
