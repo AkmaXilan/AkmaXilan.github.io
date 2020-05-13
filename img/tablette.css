@@ -135,6 +135,11 @@ ul
 	padding-top: 0px;
 }
 
+.amoi
+{
+	font-size: 35px;
+}
+
 .h2titre
 {
 	border-bottom: solid #FFC107 2px;
@@ -158,11 +163,13 @@ ul
 
 .li
 {
+	font-size: 35px;
 	padding-bottom: 7%;
 }
 
 .li2
 {
+	font-size: 35px;
 	padding-bottom: 0%;
 }
 
