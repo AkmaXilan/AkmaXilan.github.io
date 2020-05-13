@@ -15,7 +15,7 @@ body
 {
 	background-color: #FFC107;
 	width: 30%;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 }
 
 .div-blanc
@@ -119,10 +119,14 @@ ul
 
 .moi
 {
-	padding: 10%;
 	text-align: justify;
-	padding-bottom: 350px;
-	font-size: 30px;
+	padding: 0px;
+}
+
+.amoi
+{
+	padding: 10%;
+	margin-bottom: 265px;
 }
 
 .h2titre
@@ -153,13 +157,11 @@ ul
 
 .li
 {
-	font-size: 30px;
 	padding-bottom: 7%;
 }
 
 .li2
 {
-	font-size: 30px;
 	padding-bottom: 0%;
 }
 

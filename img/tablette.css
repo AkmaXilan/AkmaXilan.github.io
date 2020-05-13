@@ -223,7 +223,7 @@ ul
 .reco1
 {
 	width: 100%;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .reco2
@@ -260,4 +260,22 @@ ul
 .h3
 {
 	font-size: 25px;
+}
+
+.name_mobile
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 35px;
+}
+
+.spe_mobile
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 35px;
 }
