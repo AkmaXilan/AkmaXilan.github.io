@@ -130,8 +130,9 @@ ul
 
 .moi
 {
-	padding: 10%;
-	padding-bottom: 0px;
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 
 .h2titre
@@ -180,12 +181,14 @@ ul
 	width: 15%;
 	padding: 25px;
 	margin-top: 0px;
+	font-size: 35px;
 }
 
 .formation11
 {
 	width: 85%;
 	padding: 0px;
+	font-size: 35px;
 }
 
 .ico
@@ -235,19 +238,26 @@ ul
 
 .name_mobile
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	font-size: 40px;
-}
-
-.spe_mobile
-{
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	font-size: 30px;
 }
 
+.spe_mobile
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 30px;
+}
+
+.h5spe
+{
+	font-size: 25px;
+}
+
+.h3
+{
+	font-size: 25px;
+}
