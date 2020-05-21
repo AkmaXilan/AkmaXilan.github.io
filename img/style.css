@@ -279,3 +279,9 @@ h3 .div-bar1 .div-bar2 .div-bar3
 {
 	display: none;
 }
+
+.imgloisir
+{
+	display:flex;
+	justify-content:center;
+}
