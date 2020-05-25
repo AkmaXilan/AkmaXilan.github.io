@@ -2,7 +2,6 @@ body
 {
 	background-color: grey;
 	font-size: 18px;
-	font-weight: ;
 	font-family: Helvetica;
 }
 
@@ -35,7 +34,7 @@ body
 	color: #FFC107;	
 	justify-content: center;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 45px;
 }
 
 
@@ -48,7 +47,7 @@ body
 	height: 35px;
 	color: #FFC107;	
 	font-weight: bold;	
-	font-size: 35px;
+	font-size: 45px;
 }
 
 .div-bar3
@@ -61,7 +60,7 @@ body
 	color: #FFC107;	
 	justify-content: center;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 45px;
 }
 
 
@@ -110,7 +109,6 @@ ul
 	font-weight: bold;
 }
 
-
 .portrait
 {
 	padding: 0%;
@@ -130,8 +128,14 @@ ul
 
 .moi
 {
-	padding: 10%;
-	padding-bottom: 0px;
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.amoi
+{
+	font-size: 35px;
 }
 
 .h2titre
@@ -140,6 +144,11 @@ ul
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.h2titre
+{
+	font-size: 60px;
 }
 
 .reco-contains
@@ -157,11 +166,13 @@ ul
 
 .li
 {
+	font-size: 35px;
 	padding-bottom: 7%;
 }
 
 .li2
 {
+	font-size: 35px;
 	padding-bottom: 0%;
 }
 
@@ -180,12 +191,14 @@ ul
 	width: 15%;
 	padding: 25px;
 	margin-top: 0px;
+	font-size: 35px;
 }
 
 .formation11
 {
 	width: 85%;
 	padding: 0px;
+	font-size: 35px;
 }
 
 .ico
@@ -217,37 +230,48 @@ ul
 }
 
 
+.reco-contains
+{
+	display: flex;
+	flex-direction: column;
+}
+
 .reco1
 {
 	width: 100%;
-	font-size: 35px;
+	font-size: 26px;
 }
 
 .reco2
 {
-	padding-left: 20%;
+	width: 100%;
+	font-size: 26px;
 }
-
 .cv-contains
 {
 	padding: 5px;
 }
 
+.h5spe
+{
+	font-size: 25px;
+}
+
+.h3
+{
+	font-size: 25px;
+}
+
 .name_mobile
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	font-size: 55px;
 }
 
 .spe_mobile
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	font-size: 55px;
 }
-
