@@ -1,10 +1,3 @@
-body
-{
-	background-color: grey;
-	font-size: 18px;
-	font-family: Helvetica;
-}
-
 .div-contains
 {
 	padding: 0px;
@@ -24,54 +17,21 @@ body
 	background-color: #FFF;
 	width: 100%;
 }
-
 .div-bar1
 {
-	display: flex;
-	align-items: center;
-	background-color: #424242;
 	height: 45px;
-	color: #FFC107;	
-	justify-content: center;
-	font-weight: bold;
 	font-size: 45px;
 }
-
-
 .div-bar2
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #424242;
+
 	height: 45px;
-	color: #FFC107;	
-	font-weight: bold;	
 	font-size: 45px;
 }
-
 .div-bar3
 {
-	display: flex;
-	align-items: center;
-	background-color: #424242;
 	height: 45px;
-	margin-top: 15%;
-	color: #FFC107;	
-	justify-content: center;
-	font-weight: bold;
 	font-size: 45px;
-}
-
-
-div-bar1, p
-{
-	padding: 5%;
-}
-
-ul
-{
-	list-style-type: none;
 }
 
 .loisirimg
@@ -80,18 +40,11 @@ ul
 	height: 100px;
 }
 
-.first-name
-{
-	color: #FFC107;
-	font-size: 3rem;
-}
-
 .name
 {
 	display: none;
 	font-size: 3rem;
 }
-
 .spe
 {
 	display: none;	
@@ -99,32 +52,12 @@ ul
 
 .spe:before
 {
-	display: none;
-	position: absolute;
-	font-size: 1.5rem;
-	border-bottom: solid #FFC107 1.5px ;
-	content: "";
-	width: 60px;
 	top: 110px;
-	font-weight: bold;
 }
-
 
 .portrait
 {
 	padding: 0%;
-}
-
-.portraitimg
-{
-	width: 100%;
-	display: none;
-}
-
-.titre
-{
-	position: relative;
-	margin: 0%;	
 }
 
 .moi
@@ -134,14 +67,13 @@ ul
 	font-size: 30px;
 }
 
-.h2titre
+.amoi
 {
-	border-bottom: solid #FFC107 2px;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom: 0px;
+	margin-bottom: 245px
 }
 
+		
 .reco-contains
 {
 	display: flex;
@@ -149,27 +81,15 @@ ul
 	padding-left: 0%;
 	padding-right: 0%;
 }
-
 .reco1
 {
 	width: 50%;
 	font-size: 30px;
 }
-
 .reco2
 {
 	width: 50%;
 	font-size: 30px;
-}
-
-.li
-{
-	padding-bottom: 7%;
-}
-
-.li2
-{
-	padding-bottom: 0%;
 }
 
 .formation
@@ -177,29 +97,12 @@ ul
 	padding: 0;
 }
 
-.formation-contains
-{
-	display: flex;
-}
-
-.formation1
-{
-	width: 15%;
-	padding: 25px;
-	margin-top: 0px;
-}
-
 .formation11
 {
-	width: 85%;
 	padding: 0px;
 }
 
-.ico
-{
-	float: left;
-}
-
+	
 .icocss
 {
 	background-image: url("empty.png");
@@ -207,25 +110,18 @@ ul
 	background-size: 10px;
 }
 
+
 .icocss_img1
 {
 	font-size: 30px;
 }
-
 .icocss_img2
 {
 	font-size: 30px;
 }
-
-
 .h4lieu
 {
 	font-size: 30px;
-}
-
-.cv-contains
-{
-	padding: 5px;
 }
 
 .name_mobile
@@ -235,8 +131,8 @@ ul
 	margin-right: auto;
 	width: 50%;
 	font-size: 40px;
+	text-align: center;
 }
-
 .spe_mobile
 {
 	display: block;
@@ -244,5 +140,6 @@ ul
 	margin-right: auto;
 	width: 50%;
 	font-size: 40px;
+	text-align: center;
 }
 

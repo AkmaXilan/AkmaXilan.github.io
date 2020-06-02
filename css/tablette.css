@@ -1,278 +1,60 @@
-body
-{
-	background-color: grey;
-	font-size: 18px;
-	font-family: Helvetica;
-}
-
 .div-contains
 {
-	padding: 0px;
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-
+ 
 .div-jaune
 {
-	background-color: #FFC107;
-	padding-bottom: 20px;
-	width: 100%;
+    width: 100%;
 }
-
-.div-blanc
+ 
+.div-blanc 
 {
-	background-color: #FFF;
-	width: 100%;
+    width: 100%;
 }
-
-.div-bar1
+ 
+.trait
 {
-	display: flex;
-	align-items: center;
-	background-color: #424242;
-	height: 35px;
-	color: #FFC107;	
-	justify-content: center;
-	font-weight: bold;
-	font-size: 45px;
+    font-size: 19px;
+    margin-left: 5px;
 }
-
-
-.div-bar2
+ 
+.reco-contains 
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #424242;
-	height: 35px;
-	color: #FFC107;	
-	font-weight: bold;	
-	font-size: 45px;
+    flex-direction: column;
 }
-
-.div-bar3
-{
-	display: flex;
-	align-items: center;
-	background-color: #424242;
-	height: 35px;
-	margin-top: 15%;
-	color: #FFC107;	
-	justify-content: center;
-	font-weight: bold;
-	font-size: 45px;
-}
-
-
-div-bar1, p
-{
-	padding: 5%;
-}
-
-ul
-{
-	list-style-type: none;
-}
-
-.loisirimg
-{
-	width: 100px;
-	height: 100px;
-}
-
-.first-name
-{
-	color: #FFC107;
-	font-size: 3rem;
-}
-
-.name
-{
-	display: none;
-	font-size: 3rem;
-}
-
-.spe
-{
-	display: none;	
-}
-
-.spe:before
-{
-	display: none;
-	position: absolute;
-	font-size: 1.5rem;
-	border-bottom: solid #FFC107 1.5px ;
-	content: "";
-	width: 60px;
-	top: 110px;
-	font-weight: bold;
-}
-
-.portrait
-{
-	padding: 0%;
-}
-
-.portraitimg
-{
-	width: 100%;
-	display: none;
-}
-
-.titre
-{
-	position: relative;
-	margin: 0%;	
-}
-
-.moi
-{
-	padding-right: 10%;
-	font-size: 35px;
-	padding-left: 0px;
-	padding-top: 0px;
-}
-
-.amoi
-{
-	font-size: 35px;
-}
-
-.h2titre
-{
-	border-bottom: solid #FFC107 2px;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.h2titre
-{
-	font-size: 60px;
-}
-
-.reco-contains
-{
-	display: flex;
-	padding-left: 0%;
-	padding-right: 0%;
-}
-
-.reco1
-{
-	width: 50%;
-	font-size: 22px;
-}
-
-.li
-{
-	font-size: 35px;
-	padding-bottom: 7%;
-}
-
-.li2
-{
-	font-size: 35px;
-	padding-bottom: 0%;
-}
-
-.formation
-{
-	padding: 0;
-}
-
-.formation-contains
-{
-	display: flex;
-}
-
+ 
 .formation1
 {
-	width: 15%;
-	padding: 25px;
-	margin-top: 0px;
-	font-size: 35px;
+    margin-left: 0;
+    padding-left: 0;
 }
-
-.formation11
+ 
+.titre
 {
-	width: 85%;
-	padding: 0px;
-	font-size: 35px;
+    display: none;
 }
-
-.ico
+ 
+.my-name 
 {
-	float: left;
-}
-
-.icocss
-{
-	background-image: url("empty.png");
-	background-repeat: no-repeat;
-	background-size: 10px;
-}
-
-.icocss_img1
-{
-	font-size: 30px;
-}
-
-.icocss_img2
-{
-	font-size: 30px;
-}
-
-
-.h4lieu
-{
-	font-size: 30px;
-}
-
-
-.reco-contains
-{
-	display: flex;
-	flex-direction: column;
-}
-
-.reco1
-{
-	width: 100%;
-	font-size: 26px;
-}
-
-.reco2
-{
-	width: 100%;
-	font-size: 26px;
-}
-.cv-contains
-{
-	padding: 5px;
-}
-
-.h5spe
-{
-	font-size: 25px;
-}
-
-.h3
-{
-	font-size: 25px;
+    display: block;
+    text-align: center;
+    margin-top: -50px;
 }
 
 .name_mobile
 {
-	display: flex;
-	justify-content: center;
-	font-size: 55px;
+	display: block;
+    text-align: center;
 }
 
 .spe_mobile
 {
-	display: flex;
-	justify-content: center;
-	font-size: 55px;
+	display: block;
+    text-align: center;
+}
+.amoi
+{
+	margin-bottom: 0px;
 }
