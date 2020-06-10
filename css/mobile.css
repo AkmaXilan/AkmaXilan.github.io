@@ -20,24 +20,24 @@
 .div-bar1
 {
 	height: 45px;
-	font-size: 45px;
+	font-size: 30px;
 }
 .div-bar2
 {
 
 	height: 45px;
-	font-size: 45px;
+	font-size: 30px;
 }
 .div-bar3
 {
 	height: 45px;
-	font-size: 45px;
+	font-size: 30px;
 }
 
 .loisirimg
 {
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 }
 
 .name
@@ -64,7 +64,7 @@
 {
 	padding-right: 10%;
 	padding-bottom: 0px;
-	font-size: 30px;
+	font-size: 18px;
 }
 
 .amoi
@@ -84,12 +84,12 @@
 .reco1
 {
 	width: 50%;
-	font-size: 30px;
+	font-size: 18px;
 }
 .reco2
 {
 	width: 50%;
-	font-size: 30px;
+	font-size: 18px;
 }
 
 .formation
@@ -105,23 +105,38 @@
 	
 .icocss
 {
-	background-image: url("empty.png");
+	background-image: url("../img/empty.png");
 	background-repeat: no-repeat;
 	background-size: 10px;
+}
+
+.icocss_img2
+{
+	background-image: url("../img/empty2.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+}
+
+.amoi 
+{
+	margin-bottom: 0px;
 }
 
 
 .icocss_img1
 {
-	font-size: 30px;
+	padding-left: 0px;
+	font-size: 18px;
 }
 .icocss_img2
 {
-	font-size: 30px;
+	padding-left: 0px;
+	font-size: 18px;
 }
 .h4lieu
 {
-	font-size: 30px;
+	padding-left: 0px;
+	font-size: 18px;
 }
 
 .name_mobile
@@ -130,7 +145,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
 }
 .spe_mobile
@@ -139,7 +154,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
 }
 

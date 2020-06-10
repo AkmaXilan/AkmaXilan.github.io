@@ -196,7 +196,7 @@ ul
 
 .icocss_img1
 {
-	background-image: url("empty.png");
+	background-image: url("../img/empty.png");
 	background-repeat: no-repeat;
 	background-size: 15px;
 	margin-top: auto;
@@ -207,7 +207,7 @@ ul
 
 .icocss_img2
 {
-	background-image: url("empty2.png");
+	background-image: url("../img/empty2.png");
 	background-repeat: no-repeat;
 	background-size: 15px;
 	margin-top: auto;
