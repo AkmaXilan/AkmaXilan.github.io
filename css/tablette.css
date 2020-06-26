@@ -1,60 +1,50 @@
-.div-contains
-{
+.div-contains {
     display: flex;
     flex-direction: column;
 }
- 
-.div-jaune
-{
+
+.div-jaune {
     width: 100%;
 }
- 
-.div-blanc 
-{
+
+.div-blanc {
     width: 100%;
 }
- 
-.trait
-{
+
+.trait {
     font-size: 19px;
     margin-left: 5px;
 }
- 
-.reco-contains 
-{
+
+.reco-contains {
     flex-direction: column;
 }
- 
-.formation1
-{
+
+.formation1 {
     margin-left: 0;
     padding-left: 0;
 }
- 
-.titre
-{
+
+.titre {
     display: none;
 }
- 
-.my-name 
-{
+
+.my-name {
     display: block;
     text-align: center;
     margin-top: -50px;
 }
 
-.name_mobile
-{
-	display: block;
+.name_mobile {
+    display: block;
     text-align: center;
 }
 
-.spe_mobile
-{
-	display: block;
+.spe_mobile {
+    display: block;
     text-align: center;
 }
-.amoi
-{
-	margin-bottom: -100px;
+
+.amoi {
+    margin-bottom: -100px;
 }
