@@ -1,238 +1,83 @@
 body {
-	background-color: grey;
-	font-size: 18px;
-	font-family: Helvetica;
+	margin: 0px;
 }
 
-.div-contains {
-	display: flex;
-	padding: 10%;
-}
-
-.div-jaune {
-	background-color: #FFC107;
-	width: 30%;
-	padding-bottom: 0px;
-}
-
-.div-blanc {
-	background-color: #FFF;
-	width: 70%;
-}
-
-.div-bar1 {
-	display: flex;
-	align-items: center;
-	background-color: #424242;
-	height: 35px;
-	color: #FFC107;
-	justify-content: center;
-	font-weight: bold;
-}
-
-.div-bar2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #424242;
-	height: 35px;
-	color: #FFC107;
-	font-weight: bold;
-}
-
-.div-bar3 {
-	display: flex;
-	align-items: center;
-	background-color: #424242;
-	height: 35px;
-	margin-top: 15%;
-	color: #FFC107;
-	justify-content: center;
-	font-weight: bold;
-}
-
-div-bar1, p {
-	padding: 5%;
-}
-
-ul {
-	list-style-type: none;
-}
-
-.loisirimg {
-	width: 50px;
-	height: 50px;
-	padding: 10px;
-}
-
-.first-name {
-	color: #FFC107;
-	font-size: 3rem;
-}
-
-.name {
-	font-size: 3rem;
-}
-
-.spe:before {
-	position: absolute;
-	font-size: 1.5rem;
-	border-bottom: solid #FFC107 1.5px;
-	content: "";
-	width: 60px;
-	top: 80px;
-	font-weight: bold;
-}
-
-.portrait {
-	padding: 12%;
-}
-
-.portraitimg {
-	width: 100%;
-}
-
-.titre {
-	position: relative;
-	margin: 5%;
-}
-
-.moi {
-	text-align: justify;
-	padding: 0px;
-}
-
-.amoi {
-	padding: 10%;
-	margin-bottom: 245px
-}
-
-.h2titre {
-	display: flex;
-	align-items: center;
-	border-bottom: solid #FFC107 2px;
-	width: 90%;
-	margin-left: 30px;
-	margin-right: auto;
-}
-
-.h2titre1 {
-	display: flex;
-	align-items: center;
-	border-bottom: solid #FFC107 2px;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-}
-
-.trait {
-	margin-left: 30px;
-}
-
-.li {
-	padding-bottom: 7%;
-}
-
-.li2 {
-	padding-bottom: 0%;
-}
-
-.formation {
-	padding: 0%;
-}
-
-.formation-contains {
-	display: flex;
-}
-
-.formation1 {
-	width: 15%;
-	padding: 30px;
-	margin-top: 24px;
-	margin-left: 20px;
-}
-
-.formation11 {
-	width: 85%;
-	padding: 30px;
-}
-
-.ico {
-	float: left;
-}
-
-.icocss_img1 {
-	background-image: url("../img/empty.png");
-	background-repeat: no-repeat;
-	background-size: 15px;
-	margin-top: auto;
-	margin-bottom: auto;
-	vertical-align: middle;
-	padding-left: 20px;
-}
-
-.icocss_img2 {
-	background-image: url("../img/empty2.png");
-	background-repeat: no-repeat;
-	background-size: 15px;
-	margin-top: auto;
-	margin-bottom: auto;
-	vertical-align: middle;
-	padding-left: 20px;
-}
-
-.icocss {
-	padding-left: 20px;
-	padding-top: 25px;
-}
-
-.icocss2 {
-	padding-left: 20px;
-}
-
-.reco-contains {
-	display: flex;
-}
-
-.reco1 {
-	width: 50%;
-}
-
-.cv-contains {
-	padding: 5px;
-}
-
-h3 .div-bar1 .div-bar2 .div-bar3 {
-	font-size: 16px;
-}
-
-.document {
-	width: 50px;
-	height: 50px;
-}
-
-.center {
+.title {
+	margin-top: 0;
+	background-color: green;
+	height: 120px;
+	font-family: Trebuchet MS;
+	color: greenyellow;
+	font-size: 45px;
 	text-align: center;
 }
 
-.h4lieu {
-	padding-left: 20px;
-}
-
-.h5spe {
-	margin-bottom: 10px;
-}
-
-.name_mobile {
-	display: none;
-}
-
-.spe_mobile {
-	display: none;
-}
-
-.imgloisir {
+.mainmenu1 {
 	display: flex;
-	justify-content: center;
+	
+}
+
+.mainmenu2 {
+	display: flex;
+	
+}
+
+.menu1 {
+	margin-left: 30%;
+	margin-right: 5%;
+	margin-top: 15%;
+	margin-bottom: 5%;
+	background-color: grey;
+	height: 450px;
+	width: 300px;
+}
+
+.menu2 {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15%;
+	margin-bottom: 5%;
+	background-color: grey;
+	height: 450px;
+	width: 300px;
+}
+
+.menu3 {
+	margin-left: 30%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: grey;
+	height: 450px;
+	width: 300px;
+}
+
+.menu4 {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: grey;
+	height: 450px;
+	width: 300px;
+}
+
+.legal{
+	margin-bottom: 0;
+	font-family: Trebuchet MS;
+	color: greenyellow;
+	background-color: green;
+	height: 120px;
+	font-size: 25px;
+}
+
+.bouton{
+	padding: 10px 30px; 
+	background: green;
+	color: yellow;
+	border-radius: 11px;
+	border: 2px solid greenyellow;
+	margin: 44% 46%;
+	font-weight: bold;
+	text-decoration: none;
 }
