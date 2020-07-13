@@ -4,80 +4,83 @@ body {
 
 .title {
 	margin-top: 0;
-	background-color: green;
-	height: 120px;
+	background-color: #569c87;
+	height: 90px;
 	font-family: Trebuchet MS;
-	color: greenyellow;
+	color: #e4c254;
 	font-size: 45px;
 	text-align: center;
+	padding-top: 30px;
 }
 
 .mainmenu1 {
 	display: flex;
-	
 }
 
 .mainmenu2 {
 	display: flex;
-	
 }
 
 .menu1 {
-	margin-left: 30%;
-	margin-right: 5%;
-	margin-top: 15%;
+	margin: auto;
 	margin-bottom: 5%;
+	margin-right: 5%;
 	background-color: grey;
 	height: 450px;
 	width: 300px;
 }
 
 .menu2 {
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 15%;
+	margin: auto;
 	margin-bottom: 5%;
+	margin-left: 5%;
 	background-color: grey;
 	height: 450px;
 	width: 300px;
 }
 
 .menu3 {
-	margin-left: 30%;
+	margin: auto;
 	margin-right: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
 	background-color: grey;
 	height: 450px;
 	width: 300px;
 }
 
 .menu4 {
+	margin: auto;
 	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
 	background-color: grey;
 	height: 450px;
 	width: 300px;
 }
 
-.legal{
+.legal {
+	display: flex;
 	margin-bottom: 0;
 	font-family: Trebuchet MS;
-	color: greenyellow;
-	background-color: green;
-	height: 120px;
+	color: #e4c254;
+	background-color: #569c87;
+	height: 70px;
 	font-size: 25px;
+	justify-content: space-between;
 }
 
-.bouton{
-	padding: 10px 30px; 
-	background: green;
-	color: yellow;
+span {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 20px;
+}
+
+.bouton {
+	width: 400px;
+	height: 45px;
+	background: #569c87;
+	color: #e4c254;
 	border-radius: 11px;
-	border: 2px solid greenyellow;
-	margin: 44% 46%;
-	font-weight: bold;
 	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35PX;
 }
