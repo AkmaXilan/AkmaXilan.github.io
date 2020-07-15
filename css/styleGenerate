@@ -1,0 +1,74 @@
+/* COLOR */
+/* FIN COLOR*/
+body {
+  margin: 0px; }
+
+.title {
+  margin-top: 0;
+  background-color: green;
+  height: 120px;
+  font-family: Trebuchet MS;
+  color: greenyellow;
+  font-size: 45px;
+  text-align: center; }
+
+.mainmenu1 {
+  display: flex; }
+
+.mainmenu2 {
+  display: flex; }
+
+.menu1 {
+  margin-left: 30%;
+  margin-right: 5%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  background-color: grey;
+  height: 450px;
+  width: 300px; }
+
+.menu2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  background-color: grey;
+  height: 450px;
+  width: 300px; }
+
+.menu3 {
+  margin-left: 30%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: grey;
+  height: 450px;
+  width: 300px; }
+
+.menu4 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: grey;
+  height: 450px;
+  width: 300px; }
+
+.legal {
+  margin-bottom: 0;
+  font-family: Trebuchet MS;
+  color: greenyellow;
+  background-color: green;
+  height: 120px;
+  font-size: 25px; }
+
+.btn {
+  padding: 10px 30px;
+  background: yellow;
+  color: green;
+  border-radius: 11px;
+  margin: 44% 46%;
+  font-weight: bold;
+  text-decoration: none; }
+
+/*# sourceMappingURL=styleGenerate.map */
