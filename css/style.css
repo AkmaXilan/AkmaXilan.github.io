@@ -30,7 +30,7 @@ body {
 	margin-bottom: 5%;
 	margin-right: -2%;
 	background-color: #fcdfdb;
-	border: 5px solid #f2f1f2;
+	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
 	font-family: Comic Sans MS;
@@ -51,7 +51,7 @@ body {
 	margin-bottom: 5%;
 	margin-left: 5%;
 	background-color: #fef5fd;
-	border: 5px solid #f2f1f2;
+	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
 }
@@ -68,7 +68,7 @@ body {
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-right: -2%;
 	background-color: #f9f9f9;
-	border: 5px solid #f2f1f2;
+	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
 }
@@ -81,7 +81,7 @@ body {
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-left: 5%;
 	background-color: #fdfffd;
-	border: 5px solid #f2f1f2;
+	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
 }
@@ -134,8 +134,24 @@ h1, p{
 
 }
 
-.fab, fa-itunes-note {
-	font-size: 160px;
+.fab-css {
+	font-size: 100px;
 	margin-top: 10%;
-	margin-left: 40%;
+	margin-left: 45%;
+}
+
+.menu1-style {
+	font-size: 45px;
+}
+
+.h2-menu {
+	text-align: center;
+}
+
+.p-menu {
+	text-align: center;
+}
+
+.menu1-note {
+
 }
