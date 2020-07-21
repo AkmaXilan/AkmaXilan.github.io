@@ -1,3 +1,9 @@
+/***********************************/
+/*             CREATE              */
+/*               BY                */
+/*      Jean-Baptiste Pontailler   */
+/***********************************/
+
 body {
 	margin: 0px;
 }
@@ -24,25 +30,36 @@ body {
 @font-face {
 	font-family: 'coolvetica';
 	src: url('/dafont/coolvetica rg.ttf') format('truetype');
-
 	font-family: 'Devonshire-Regular';
 	src: url('/dafont/Devonshire-Regular.ttf') format('truetype');
-	
 	font-family: 'CroissantOne-Regular';
 	src: url('/dafont/CroissantOne-Regular.ttf') format('truetype');
 	src: url('/dafont/CroissantOne-Regular.otf') format('otf');
-
 	font-family: 'DancingScript';
 	src: url('/dafont/DancingScript.ttf') format('truetype');
-
 	font-family: 'KaushanScript-Regular';
 	src: url('/dafont/KaushanScript-Regular.ttf') format('truetype');
 }
 
-a:link {color: #000000; text-decoration: none}
-a:active {color: #000000; text-decoration: none}
-a:visited {color: #000000; text-decoration: none}
-a:hover {color: #000000; text-decoration: none}
+a:link {
+	color: #000000;
+	text-decoration: none
+}
+
+a:active {
+	color: #000000;
+	text-decoration: none
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none
+}
 
 .menu1 {
 	display: flex;
@@ -58,15 +75,29 @@ a:hover {color: #000000; text-decoration: none}
 	width: 300px;
 	font-family: Devonshire-Regular;
 	font-size: 12px;
-	color: #3c1218;	
+	color: #3c1218;
 }
 
-.degrade {
+.degrade1 {
 	font-size: 72px;
 	background: -webkit-linear-gradient(#c77412, purple);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  }
+}
+
+.degrade2 {
+	font-size: 72px;
+	background: -webkit-linear-gradient(blue, lightblue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.degrade3 {
+	font-size: 72px;
+	background: -webkit-linear-gradient(green, lightgreen);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 .menu2 {
 	display: flex;
@@ -87,10 +118,21 @@ a:hover {color: #000000; text-decoration: none}
 	font-size: 25px;
 }
 
+.text-menu3 {
+	color: blue;
+	font-size: 25px;
+}
+
+.text-menu4 {
+	color: green;
+	font-size: 25px;
+}
+
 .menu3 {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;;
+	justify-content: center;
+	;
 	margin-left: 207%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-right: -2%;
@@ -105,7 +147,7 @@ a:hover {color: #000000; text-decoration: none}
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 227% ;
+	margin-left: 227%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	background-color: #fdfffd;
 	/*border: 5px solid #f2f1f2;*/
@@ -144,7 +186,7 @@ span {
 	font-size: 35PX;
 }
 
-h1, p{
+h1, p {
 	text-align: center;
 }
 
@@ -154,13 +196,15 @@ h1, p{
 	margin-bottom: 0px;
 }
 
+
+/* CADRE MENU */
 .main-menu {
 	background-color: #fcdfdb;
+	height: 1250px;
 	width: 800px;
-	height: 1200px;
 	margin: auto;
-
 }
+/*FIN CADRE MENU */
 
 .fab-css {
 	font-size: 100px;
@@ -176,6 +220,36 @@ h1, p{
 	text-align: center;
 }
 
+
+/* CSS MENU 1 */
+
 .p-menu {
-	text-align: center;
+	text-align: left;
 }
+
+
+.trait1 {
+	height: 75%;
+	width: 75%;
+	text-align: left;
+}
+
+.trait2 {
+	height: 75%;
+	width: 75%;
+	text-align: right;
+}
+
+.price {
+	margin-right: 0%;
+}
+
+.table-menu1 {
+	margin: auto;
+	padding-bottom: 15%;
+}
+.menu1-note {
+	font-size: 35px;
+}
+
+/* FIN CSS MENU 1*/
