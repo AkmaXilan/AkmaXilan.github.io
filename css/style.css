@@ -12,7 +12,7 @@ body {
 	margin-top: 0;
 	background-color: #569c87;
 	height: 90px;
-	font-family: coolvetica;
+	font-family: NotoSerif-Regular, Arial, serif;
 	color: #e4c254;
 	font-size: 45px;
 	text-align: center;
@@ -29,16 +29,18 @@ body {
 
 @font-face {
 	font-family: 'coolvetica';
-	src: url('/dafont/coolvetica rg.ttf') format('truetype');
+	src: url('/police/coolvetica rg.ttf') format('truetype');
 	font-family: 'Devonshire-Regular';
-	src: url('/dafont/Devonshire-Regular.ttf') format('truetype');
+	src: url('/police/evonshire-Regular.ttf') format('truetype');
 	font-family: 'CroissantOne-Regular';
-	src: url('/dafont/CroissantOne-Regular.ttf') format('truetype');
-	src: url('/dafont/CroissantOne-Regular.otf') format('otf');
+	src: url('/police/CroissantOne-Regular.ttf') format('truetype'),
+	url('/police/CroissantOne-Regular.otf') format('otf');
 	font-family: 'DancingScript';
-	src: url('/dafont/DancingScript.ttf') format('truetype');
+	src: url('/police/DancingScript.ttf') format('truetype');
 	font-family: 'KaushanScript-Regular';
-	src: url('/dafont/KaushanScript-Regular.ttf') format('truetype');
+	src: url('/police/DancingScript.ttf') format('truetype');
+	font-family: 'NotoSerif-Regular';
+	src: url('/police/NotoSerif-Regular.ttf') format('truetype');
 }
 
 a:link {
@@ -73,7 +75,7 @@ a:hover {
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
-	font-family: Devonshire-Regular;
+	font-family: Devonshire-Regular, Arial, serif;
 	font-size: 12px;
 	color: #3c1218;
 }
@@ -110,7 +112,7 @@ a:hover {
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
-	font-family: CroissantOne-Regular;
+	font-family: CroissantOne-Regular, Arial, serif;
 }
 
 .text-menu2 {
@@ -140,7 +142,7 @@ a:hover {
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
-	font-family: DancingScript;
+	font-family: DancingScript, Arial, serif;
 }
 
 .menu4 {
@@ -153,7 +155,7 @@ a:hover {
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
-	font-family: KaushanScript-Regular;
+	font-family: KaushanScript-Regular, Arial, serif;
 }
 
 .legal {
@@ -223,8 +225,25 @@ h1, p {
 
 /* CSS MENU 1 */
 
+/*
+.main-menu {
+	display: flex;
+	justify-content: space-between;
+}
+*/
+
 .p-menu {
+	margin-left: 6%;
 	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.p-menu2 {
+	margin-left: 6%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 
@@ -241,7 +260,10 @@ h1, p {
 }
 
 .price {
-	margin-right: 0%;
+	margin-right: 6%;
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .table-menu1 {
