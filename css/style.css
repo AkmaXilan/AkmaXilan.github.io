@@ -29,18 +29,33 @@ body {
 
 @font-face {
 	font-family: 'coolvetica';
-	src: url('/police/coolvetica rg.ttf') format('truetype');
+	src: url('police/coolvetica rg.ttf') format('truetype');	
+}
+
+@font-face {
 	font-family: 'Devonshire-Regular';
-	src: url('/police/evonshire-Regular.ttf') format('truetype');
+	src: url('police/Devonshire-Regular.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'CroissantOne-Regular';
-	src: url('/police/CroissantOne-Regular.ttf') format('truetype'),
-	url('/police/CroissantOne-Regular.otf') format('otf');
+	src: url('police/CroissantOne-Regular.ttf') format('truetype'),
+	url('police/CroissantOne-Regular.otf') format('otf');
+}
+
+@font-face {
 	font-family: 'DancingScript';
-	src: url('/police/DancingScript.ttf') format('truetype');
+	src: url('police/DancingScript.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'KaushanScript-Regular';
-	src: url('/police/DancingScript.ttf') format('truetype');
+	src: url('police/DancingScript.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'NotoSerif-Regular';
-	src: url('/police/NotoSerif-Regular.ttf') format('truetype');
+	src: url('police/NotoSerif-Regular.ttf') format('truetype');
 }
 
 a:link {
