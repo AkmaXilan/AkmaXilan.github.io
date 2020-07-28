@@ -50,12 +50,22 @@ body {
 
 @font-face {
 	font-family: 'KaushanScript-Regular';
-	src: url('police/DancingScript.ttf') format('truetype');
+	src: url('police/KaushanScript-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'NotoSerif-Regular';
 	src: url('police/NotoSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Segoe_Print';
+	src : url('police/Segoe_Print.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Serif6Beta-Regular';
+	src : url('police/Serif6Beta-Regular.otf') format('otf');
 }
 
 a:link {
@@ -82,7 +92,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 207%;
+	margin-left: 33%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-bottom: 5%;
 	margin-right: -2%;
@@ -90,9 +100,12 @@ a:hover {
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
-	font-family: Devonshire-Regular, Arial, serif;
 	font-size: 12px;
 	color: #3c1218;
+}
+
+.menu1-police {
+	font-family: Devonshire-Regular, Arial, serif;
 }
 
 .degrade1 {
@@ -120,13 +133,16 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 227%;
+	margin-left: 5%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-bottom: 5%;
 	background-color: #fef5fd;
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
+}
+
+.menu2-police {
 	font-family: CroissantOne-Regular, Arial, serif;
 }
 
@@ -150,13 +166,16 @@ a:hover {
 	flex-direction: column;
 	justify-content: center;
 	;
-	margin-left: 207%;
+	margin-left: 33%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	margin-right: -2%;
 	background-color: #f9f9f9;
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
+}
+
+.menu3-police {
 	font-family: DancingScript, Arial, serif;
 }
 
@@ -164,13 +183,25 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 227%;
+	margin-left: 5%;
 	box-shadow: 1px 1px 1px 1px #D3D3D3;
 	background-color: #fdfffd;
 	/*border: 5px solid #f2f1f2;*/
 	height: 450px;
 	width: 300px;
+	
+}
+
+.menu4-police {
 	font-family: KaushanScript-Regular, Arial, serif;
+}
+
+.menu5-police {
+	font-family: Segoe_Print, Arial, serif;
+}
+
+.menu6-police {
+	font-family: Serif6Beta-Regular, Arial, serif;
 }
 
 .legal {
@@ -262,13 +293,13 @@ h1, p {
 }
 
 
-.trait1 {
+.trait1, .trait3, .trait5, .trait7 {
 	height: 75%;
 	width: 75%;
 	text-align: left;
 }
 
-.trait2 {
+.trait2, .tait4, .trait6, .trait8 {
 	height: 75%;
 	width: 75%;
 	text-align: right;
@@ -289,4 +320,30 @@ h1, p {
 	font-size: 35px;
 }
 
+/* FIN CSS MENU 1*/
+
+/* CSS MENU 2 */
+.main-menu2 {
+	background-color: #fff5fe;
+	height: 1250px;
+	width: 800px;
+	margin: auto;
+}
+
+.menu2-margin {
+	padding: 15%;
+	font-family: CroissantOne-Regular, Arial, serif;
+}
+
+.menu-color1 {
+	color: #c67412;
+}
+
+.menu-color2 {
+	color: #a56799;
+}
+
+.menu-color3 {
+	color: #714fcd;
+}
 /* FIN CSS MENU 1*/
