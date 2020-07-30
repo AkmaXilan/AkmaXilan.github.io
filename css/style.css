@@ -293,13 +293,13 @@ h1, p {
 }
 
 
-.trait1, .trait3, .trait5, .trait7 {
+.trait1, .trait3, .trait5, .trait7, .trait9, .trait11, .trait13, .trait15 {
 	height: 75%;
 	width: 75%;
 	text-align: left;
 }
 
-.trait2, .tait4, .trait6, .trait8 {
+.trait2, .trait4, .trait6, .trait8, .trait10, .trait12, .trait14, .trait16 {
 	height: 75%;
 	width: 75%;
 	text-align: right;
@@ -346,4 +346,39 @@ h1, p {
 .menu-color3 {
 	color: #714fcd;
 }
-/* FIN CSS MENU 1*/
+/* FIN CSS MENU 2*/
+
+
+/* CSS MENU 3 */
+
+.main-menu3 {
+	background-color: #edefef;
+	height: 1250px;
+	width: 800px;
+	margin: auto;
+}
+
+.menu3-margin {
+	padding: 15%;
+	font-size: 45px;
+	font-family: CroissantOne-Regular, Arial, serif;
+}
+
+/* FIN CSS MENU 3*/
+
+/* CSS MENU 4 */
+
+.main-menu4 {
+	background-color: #fdfffd;
+	height: 1250px;
+	width: 800px;
+	margin: auto;
+}
+
+.menu4-margin {
+	padding: 6%;
+	font-size: 55px;
+	font-family: DancingScript, Arial, serif;
+}
+
+/* FIN CSS MENU 4*/
