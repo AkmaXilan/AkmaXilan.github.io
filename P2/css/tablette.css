@@ -1,0 +1,50 @@
+.div-contains {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-jaune {
+    width: 100%;
+}
+
+.div-blanc {
+    width: 100%;
+}
+
+.trait {
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+.reco-contains {
+    flex-direction: column;
+}
+
+.formation1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.titre {
+    display: none;
+}
+
+.my-name {
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.name_mobile {
+    display: block;
+    text-align: center;
+}
+
+.spe_mobile {
+    display: block;
+    text-align: center;
+}
+
+.amoi {
+    margin-bottom: -100px;
+}

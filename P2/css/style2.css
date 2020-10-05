@@ -1,0 +1,8 @@
+.div-contains {
+	display: flex;
+	padding: 0;
+}
+
+.spe:before {
+	display: none;
+}

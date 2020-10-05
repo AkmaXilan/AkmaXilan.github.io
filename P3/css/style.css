@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('police/Roboto-Medium.ttf') format('truetype');	
+}
+
+body
+{
+    font-family: Roboto;
+}
+
+.logo
+{
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.location
+{
+    background-color: #DCDCDC;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0px -4px 0px 0px #CECECE;
+}
+
+.misc
+{
+    background-color: #EFEFEF;
+    text-align: center;
+    height: 120px;
+    padding-top: 40px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.size30
+{
+    font-size: 30px;
+}
+
+.bouton {
+	width: 300px;
+    height: 45px;
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+	color: #FFF;
+	border-radius: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 20PX;
+    box-shadow: 0px -2px 0px 0px #CECECE ;
+}
