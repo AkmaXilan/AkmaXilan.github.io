@@ -3,9 +3,19 @@
 	src: url('police/Roboto-Medium.ttf') format('truetype');	
 }
 
+@font-face {
+	font-family: 'Shrikhand-Regular';
+	src: url('police/Shrikhand-Regular.otf') format('otf');	
+}
+
 body
 {
     font-family: Roboto;
+}
+
+.title-police
+{
+    font-family: Shrikhand-Regular;
 }
 
 .logo
@@ -32,7 +42,7 @@ body
 {
     background-color: #EFEFEF;
     text-align: center;
-    height: 120px;
+    height: 250px;
     padding-top: 40px;
 }
 
@@ -44,6 +54,61 @@ body
 .size30
 {
     font-size: 30px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.bg-dcdcdc
+{
+    background-color: #dcdcdc;
+    width: 500px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.bg-2d2d2d
+{
+    background-color: #2d2d2d;
+}
+
+.footer-color
+{
+    color: #fff;
+}
+
+.center-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bull
+{
+    background-color: #dcdcdc;
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.plat-size
+{
+    height: 350px;
+    width: 500px;
+    margin-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0;
 }
 
 .bouton {
