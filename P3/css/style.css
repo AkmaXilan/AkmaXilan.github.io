@@ -23,15 +23,19 @@ body
 
 .logo
 {
+    position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .h1
 {
     margin-left: 3%;
     margin-top: 10%;
+    font-size: 65px;
 }
 
 .degrade_ligne
@@ -45,11 +49,12 @@ body
     background-color: #dcdcdc;
     text-align: center;
     vertical-align: middle;
-    height: 40px;
+    height: 70px;
     padding-top: 20px;
     margin-top: 0px;
     margin-left: 0;
     margin-right: 0;
+    font-size: 26px;
 }
 
 .misc
@@ -63,6 +68,11 @@ body
 .bold
 {
     font-weight: bold;
+}
+
+.size18
+{
+    font-size: 20px;
 }
 
 .size26
@@ -87,14 +97,15 @@ body
 
 .bg-dcdcdc
 {
+    display: flex;
     background-color: #dcdcdc;
-    width: 750px;
-    height: 75px;
+    width: 700px;
+    height: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     margin-bottom: 25px;
 }
 
@@ -137,6 +148,7 @@ body
 .padding_footer
 {
     padding-left: 15px;
+    padding: 1%;
 }
 
 .img_size
@@ -147,6 +159,7 @@ body
 
 .bull
 {
+    position: relative;
     background-color: #efefef;
     border-radius: 20px;
     height: 70px;
@@ -160,21 +173,25 @@ body
 
 .bullet
 {
-    width: 10px;
-    height: 50px;
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    position: absolute;
+    display: inline-block;
+    justify-content: left;
+    left: -15px;
+    width: 25px;
+    height: 25px;
+    background: #9356DC;
 	color: #FFF;
 	border-radius: 20px;
 	text-decoration: none;
     padding: 5px;
-    font-size: 20PX;
-    text-align: left;
+    font-size: 20px;
+    text-align: center;
 }
 
 .plat-size
 {
-    height: 600px;
-    width: 750px;
+    height: 400px;
+    width: 700px;
     margin-bottom: 25px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
