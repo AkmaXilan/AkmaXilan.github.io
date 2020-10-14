@@ -99,14 +99,17 @@ body
 {
     display: flex;
     background-color: #dcdcdc;
-    width: 700px;
-    height: 100px;
+    width: 680px;
+    height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 5px;
 }
 
 .bg-2d2d2d
@@ -161,13 +164,13 @@ body
 {
     position: relative;
     background-color: #efefef;
-    border-radius: 20px;
+    border-radius: 35px;
     height: 70px;
+    width: 85%;
     padding-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
     font-size: 24px;
 }
 
@@ -177,8 +180,8 @@ body
     display: inline-block;
     justify-content: left;
     left: -15px;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background: #9356DC;
 	color: #FFF;
 	border-radius: 20px;
@@ -186,6 +189,8 @@ body
     padding: 5px;
     font-size: 20px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .plat-size
@@ -214,6 +219,20 @@ body
     padding-bottom: 7px;
     font-size: 20PX;
     box-shadow: 0px -2px 0px 0px #CECECE ;
+}
+
+.img_bull
+{
+    position: absolute;
+    left: 150px;
+}
+
+.resto
+{
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    width: 500px;
 }
 
 /** #726f69 (gris icone) **/
