@@ -236,3 +236,7 @@ h3 .div-bar1 .div-bar2 .div-bar3 {
 	display: flex;
 	justify-content: center;
 }
+
+.wip{
+	color: red;
+}
