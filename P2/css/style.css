@@ -1,7 +1,7 @@
 body {
-	background-color: grey;
-	font-size: 18px;
-	font-family: Helvetica;
+	background-color:#6D7D65;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .div-contains {
@@ -10,14 +10,16 @@ body {
 }
 
 .div-jaune {
-	background-color: #FFC107;
+	background-color: #E5C08B;
 	width: 30%;
 	padding-bottom: 0px;
+	box-shadow: 5px 5px #433C3A;
 }
 
 .div-blanc {
 	background-color: #FFF;
 	width: 70%;
+	box-shadow: 4px 4px #433C3A;
 }
 
 .div-bar1 {
@@ -25,7 +27,7 @@ body {
 	align-items: center;
 	background-color: #424242;
 	height: 35px;
-	color: #FFC107;
+	color: #E5C08B;
 	justify-content: center;
 	font-weight: bold;
 }
@@ -36,7 +38,7 @@ body {
 	justify-content: center;
 	background-color: #424242;
 	height: 35px;
-	color: #FFC107;
+	color: #E5C08B;
 	font-weight: bold;
 }
 
@@ -45,8 +47,19 @@ body {
 	align-items: center;
 	background-color: #424242;
 	height: 35px;
-	margin-top: 15%;
-	color: #FFC107;
+	margin-top: 50%;
+	color: #E5C08B;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.div-bar4 {
+	display: flex;
+	align-items: center;
+	background-color: #424242;
+	height: 35px;
+	margin-top: 65%;
+	color: #E5C08B;
 	justify-content: center;
 	font-weight: bold;
 }
@@ -66,7 +79,7 @@ ul {
 }
 
 .first-name {
-	color: #FFC107;
+	color: #E5C08B;
 	font-size: 3rem;
 }
 
@@ -77,7 +90,7 @@ ul {
 .spe:before {
 	position: absolute;
 	font-size: 1.5rem;
-	border-bottom: solid #FFC107 1.5px;
+	border-bottom: solid #E5C08B 1.5px;
 	content: "";
 	width: 60px;
 	top: 80px;
@@ -110,7 +123,7 @@ ul {
 .h2titre {
 	display: flex;
 	align-items: center;
-	border-bottom: solid #FFC107 2px;
+	border-bottom: solid #E5C08B 2px;
 	width: 90%;
 	margin-left: 30px;
 	margin-right: auto;
@@ -119,7 +132,7 @@ ul {
 .h2titre1 {
 	display: flex;
 	align-items: center;
-	border-bottom: solid #FFC107 2px;
+	border-bottom: solid #E5C08B 2px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -195,8 +208,8 @@ ul {
 	display: flex;
 }
 
-.reco1 {
-	width: 50%;
+.reco {
+	text-align: center;
 }
 
 .cv-contains {
@@ -204,7 +217,7 @@ ul {
 }
 
 h3 .div-bar1 .div-bar2 .div-bar3 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .document {
